@@ -1,0 +1,26 @@
+body {
+    font-family: Arial;
+    text-align:center;
+    background:#0b1c2d;
+    color:white;
+    }
+    
+    .grid {
+    display:grid;
+    grid-template-columns:repeat(10,40px);
+    gap:4px;
+    justify-content:center;
+    margin-bottom:20px;
+    }
+    
+    .cell {
+    width:40px;
+    height:40px;
+    background:#1e3b5a;
+    cursor:pointer;
+    }
+    
+    .ship { background:#888; }
+    .hit { background:red; }
+    .miss { background:#333; }
+    
